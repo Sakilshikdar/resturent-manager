@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="consistent.css">
+  <title>Restaurant</title>
+</head>
+<body class="bg-gray-100">
+  <header class="bg-white shadow-md">
+    <nav class="container mx-auto p-4 flex justify-between">
+      <a href="index.html" class="text-xl font-bold">Restaurant</a>
+      <div>
+        <a href="resturent_menu.html" class="ml-4 text-gray-700 hover:text-gray-900">Menu</a>
+        <a href="resturent_reservations.html" class="ml-4 text-gray-700 hover:text-gray-900">Reservations</a>
+        <a href="resturent_contact.html" class="ml-4 text-gray-700 hover:text-gray-900">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="container border border-5  mx-auto p-8">
+    <div class="mainContainer">
+      <div>
+        <h1 class="text-3xl font-bold mb-4">Welcome to Our Restaurant</h1>
+        <p class="text-lg text-gray-700 ">Experience the best dining with our exquisite menu and cozy atmosphere.</p>
+      </div>
+      <img class="container-image" src="https://img.freepik.com/premium-vector/chef-cooking-outdoor-barbecue_24640-71290.jpg?w=740" alt="Restaurant" class="w-full mt-8">
+    </div>
+  </main>
+
+
+
+  
+
+<div class="my-5 bg-gray-100 flex justify-center items-center ">
+  <div class="relative inline-block text-left">
+      <div>
+          <button id="dropdownButton" type="button" class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="true" aria-haspopup="true">
+              Menu
+              <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M10 3a1 1 0 01.7.3l5 5a1 1 0 01-1.4 1.4L10 5.4 5.7 9.7a1 1 0 11-1.4-1.4l5-5A1 1 0 0110 3z" clip-rule="evenodd" />
+              </svg>
+          </button>
+      </div>
+
+      <div id="dropdownMenu" class="hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="dropdownButton">
+          <div class="py-1" role="none">
+              <a href="#" class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">Fish</a>
+              <a href="#" class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">Salad</a>
+              <a href="#" class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">Rice</a>
+              <a href="#" class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">Vagitable</a>
+              
+          </div>
+      </div>
+  </div>
+</div>
+
+ 
+
+  <!-------------- card -------------------->
+  <div class="card_flex">
+  <div class="card">
+    <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?t=st=1717404340~exp=1717407940~hmac=802343a56fffcdc0b5751ab012754905695db3001f2b79b0f054e1dcc395a991&w=996" alt="Card Image" class="card-image">
+    <div class="card-content">
+        <h2 class="card-title">Spicy Pasta</h2>
+        <p class="card-description">starting with the classic soffritto helps. 🙂 Which might sound fancy but it just refers to sautéing onions, garlic, celery and carrots over low heat to make them beautifully sweet.</p>
+        <p class="card-description">Price: 20$</p>
+        <a href="#" class="card-button">Read More</a>
+    </div>
+</div>
+  <div class="card">
+    <img src="https://img.freepik.com/premium-photo/pizza-black-background-illustration-images_796580-21.jpg?w=996" alt="Card Image" class="card-image">
+    <div class="card-content">
+        <h2 class="card-title">Chess Pizza</h2>
+        <p class="card-description">pizza base you want – homemade classic, this magic no-yeast pizza base or store bought. But for best results, grate your own cheese! Store bought pre-grated is packaged.</p>
+        <p class="card-description">Price: 15$</p>
+        <a href="#" class="card-button">Read More</a>
+    </div>
+</div>
+  <div class="card">
+    <img src="https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?t=st=1717404414~exp=1717408014~hmac=0e1a4a40acb61a94d7bba0a4aa440e726c6d492b96b84b8e103f0d57605a8e65&w=996" alt="Card Image" class="card-image">
+    <div class="card-content">
+        <h2 class="card-title">Beef Biryani</h2>
+
+        <p class="card-description">his is a feast of a biryani that is a lot of fun to serve hungry family and friends. Although any cheap cut of braising steak will do.</p>
+        <p class="pb-3" >Price: 10$</p>
+        <a href="#" class="card-button">Read More</a>
+    </div>
+</div>
+</div>  
+
+
+  <footer class="page_footer bg-white shadow-md p-4 text-center">
+    &copy; 2024 Restaurant. All rights reserved.
+  </footer>
+
+
+  <script>
+    document.getElementById('dropdownButton').addEventListener('click', function() {
+        var dropdownMenu = document.getElementById('dropdownMenu');
+        if (dropdownMenu.classList.contains('hidden')) {
+            dropdownMenu.classList.remove('hidden');
+        } else {
+            dropdownMenu.classList.add('hidden');
+        }
+    });
+
+    document.addEventListener('click', function(event) {
+        var dropdownButton = document.getElementById('dropdownButton');
+        var dropdownMenu = document.getElementById('dropdownMenu');
+        if (!dropdownButton.contains(event.target)) {
+            dropdownMenu.classList.add('hidden');
+        }
+    });
+</script>
+</body>
+</html>
