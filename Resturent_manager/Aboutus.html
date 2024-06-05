@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Restaurant Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto p-4 flex justify-between">
+          <a href="index.html" class="text-xl font-bold">Restaurant</a>
+          <div>
+                        
+              <a href="index.html" class="ml-4 text-gray-700 hover:text-gray-900">Home</a>
+              <a href="resturent_menu.html" class="ml-4 text-gray-700 hover:text-gray-900">Pricing</a>
+              
+              <a href="resturent_contact.html" class="ml-4 text-gray-700 hover:text-gray-900">Contact</a>
+              <a href="Aboutus.html" class="ml-4 text-gray-700 hover:text-gray-900">About us</a>
+              
+            <a href="resturent_reservations.html" class="ml-4 text-gray-700 hover:text-gray-900">Sign Up</a>
+              
+            <a href="resturent_reservations.html" class="ml-4 "> <i class="fab fa-facebook-square"></i></a>
+          </div>
+        </nav>
+      </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto py-16 px-4">
+        <section class="mb-12 text-center">
+            <h2 class="text-4xl font-semibold text-gray-800">About Us</h2>
+            <p class="mt-4 text-lg text-gray-600">Discover the story behind our restaurant and what drives our passion for exceptional dining experiences.</p>
+        </section>
+
+        <section class="mb-12">
+            <div class="flex flex-col lg:flex-row items-center">
+                <img src="data:image/jpeg;base64,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" alt="Restaurant Image" class="w-full lg:w-1/2 rounded-lg shadow-md object-cover">
+                <div class="w-full lg:w-1/2 lg:pl-12 mt-6 lg:mt-0">
+                    <h3 class="text-3xl font-semibold text-gray-800">Our Story</h3>
+                    <p class="mt-4 text-gray-600">Founded in 2010, our restaurant has been committed to providing a welcoming atmosphere and delicious food made with the freshest ingredients. Our journey began with a simple mission: to create a place where people can enjoy good food and great company.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h3 class="text-3xl font-semibold text-gray-800 text-center">Our Mission & Vision</h3>
+            <div class="flex flex-col lg:flex-row mt-8">
+                <div class="w-full lg:w-1/2 lg:pr-6">
+                    <h4 class="text-2xl font-semibold text-gray-800">Mission</h4>
+                    <p class="mt-4 text-gray-600">Our mission is to deliver an unparalleled dining experience that delights our guests and creates lasting memories. We strive to offer exceptional service, innovative cuisine, and a warm, inviting atmosphere.</p>
+                </div>
+                <div class="w-full lg:w-1/2 lg:pl-6 mt-6 lg:mt-0">
+                    <h4 class="text-2xl font-semibold text-gray-800">Vision</h4>
+                    <p class="mt-4 text-gray-600">Our vision is to be recognized as a leader in the restaurant industry, known for our commitment to quality, creativity, and sustainability. We aim to grow our brand while maintaining the values that have made us a beloved destination for food lovers.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h3 class="text-3xl font-semibold text-gray-800 text-center">Meet the Team</h3>
+            <div class="flex flex-wrap justify-center mt-8">
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-4">
+                    <img src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" alt="Team Member" class="rounded-full shadow-md">
+                    <h4 class="text-xl font-semibold text-gray-800 mt-4">John Doe</h4>
+                    <p class="text-gray-600">Founder & Head Chef</p>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-4">
+                    <img src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" alt="Team Member" class="rounded-full shadow-md">
+                    <h4 class="text-xl font-semibold text-gray-800 mt-4">Jane Smith</h4>
+                    <p class="text-gray-600">General Manager</p>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-4">
+                    <img src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" alt="Team Member" class="rounded-full shadow-md">
+                    <h4 class="text-xl font-semibold text-gray-800 mt-4">Emily Johnson</h4>
+                    <p class="text-gray-600">Sous Chef</p>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-4">
+                    <img src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" alt="Team Member" class="rounded-full shadow-md">
+                    <h4 class="text-xl font-semibold text-gray-800 mt-4">Michael Brown</h4>
+                    <p class="text-gray-600">Marketing Director</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="text-3xl font-semibold text-gray-800 text-center">Our Values</h3>
+            <div class="flex flex-wrap mt-8">
+                <div class="w-full lg:w-1/3 p-4">
+                    <h4 class="text-xl font-semibold text-gray-800">Quality</h4>
+                    <p class="mt-4 text-gray-600">We believe in using only the highest quality ingredients and preparing each dish with care and precision.</p>
+                </div>
+                <div class="w-full lg:w-1/3 p-4">
+                    <h4 class="text-xl font-semibold text-gray-800">Innovation</h4>
+                    <p class="mt-4 text-gray-600">We are constantly exploring new culinary trends and techniques to keep our menu exciting and fresh.</p>
+                </div>
+                <div class="w-full lg:w-1/3 p-4">
+                    <h4 class="text-xl font-semibold text-gray-800">Sustainability</h4>
+                    <p class="mt-4 text-gray-600">We are committed to sustainable practices, including sourcing locally and reducing waste.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    
+  <footer class="relative bg-blueGray-200 pt-5 pb-6 mt-16">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap text-left lg:text-left">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl fonat-semibold text-blueGray-700">Let's keep in touch!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+            Find us on any of these platforms.
+          </h5>
+          <div class="mt-6 lg:mb-0 mb-6">
+            <button
+              class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+              <i class="fab fa-twitter"></i></button><button
+              class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+             
+              <i class="fab fa-dribbble"></i></button><button
+              class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 px-4">
+          <div class="flex flex-wrap items-top mb-6">
+            <div class="w-full lg:w-4/12 px-4 ml-auto">
+              <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">About
+                    Us</a>
+                </li>
+                <li>
+                  <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Blog</a>
+                </li>
+                <li>
+                  <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                    href="">Github</a>
+                </li>
+                <li>
+                  <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Free
+                    Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full lg:w-4/12 px-4">
+              <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                    href="index.html">MIT License</a>
+                </li>
+                <li>
+                  <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Terms
+                    &amp; Conditions</a>
+                </li>
+                <li>
+                  <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Privacy
+                    Policy</a>
+                </li>
+                <li>
+                  <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Contact
+                    Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="my-6 border-blueGray-300">
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-blueGray-500 font-semibold py-1">
+            Copyright © <span id="get-current-year">2021</span><a href=" class=" text-blueGray-500 hover:text-gray-800"
+              target="_blank"> Notus JS by
+              <a href="" class="text-blueGray-500 hover:text-blueGray-800">Creative Tim</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  
+  <script src="//unpkg.com/alpinejs" defer></script>
+</body>
+</html>
